@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap');
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+   font-family: Poppins ,sans-serif;
+	font-weight: normal;
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+	background: rgb(65, 170, 65);
+}
+.wrapper::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.2;
+	background: url('/img/background/karta.png') 50% / cover no-repeat;
+}
+.header {}
+
+.head {
+	width: 100%;
+	height: 150px;
+}
+
+.block-header {
+	padding: 20px;
+	position: relative;
+}
+
+.menu {
+	display: inline-block;
+}
+
+.menu__text {
+}
+
+.menu__link {
+	font-size: 35px;
+	color: white;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.menu__hyphen {
+	background: black;
+	width: 60px;
+	height: 4px;
+	border-radius: 2px;
+	display: block;
+}
+.menu__hyphen:not(:last-child){
+	margin-bottom:9px;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.logo__img {
+	position: absolute;
+	left: 150px;
+	top: -5px;
+	display: inline-block;
+}
+
+.logo__kompany {
+	width:120px;
+}
+
+.logo__name {
+	text-shadow: 1px 1px 1px black;
+	display: inline-block;
+	font-size: 25px;
+	color: red;
+	padding: 40px 0px 0px 150px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+   font-style: italic;
+}
+.logo__name::first-letter{
+	text-transform: uppercase;
+	font-size: 40px;
+	letter-spacing: 0;
+}
+
+.slogan {
+	display: inline-block;
+}
+
+.slogan__text {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 43px;
+	padding-left: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	text-decoration: underline;
+	text-shadow: 2px 2px 2px black;
+}
+
+.main {
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	position: relative;
+	z-index: 5;
+}
+
+.main__block {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.main__left {
+	background: url('../img/background/edet-PhotoRoom.png') 400px -20px / 250px no-repeat;
+}
+
+.gou {
+	width: 49%;
+	color: white;
+	display: inline-block;
+	font-size: ;
+}
+.for-back{
+	background: url('../img/background/vstrechaet-PhotoRoom.png') 470px 10px / 210px no-repeat;
+
+}
+
+.gou__conteiner {}
+
+.coming {}
+
+.coming__title {
+	font-size: 45px;
+	text-shadow: 2px 2px 2px #000;
+	padding: 50px 0px 35px 208px;
+}
+
+.coming__text {
+	max-width: 500px;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px #000;
+	padding: 0px 0px 35px 0px;
+}
+
+.video {
+	
+}
+
+.video__youtube {
+	max-width: 630px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 50px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+}
+
+.footer {
+	height: 50px;
+	background: rgba(145, 144, 144, 0.158);
+	font-size: 25px;
+	text-align: right;
+	padding: 15px 40px 0px 0px;
+}
+
+.Footer__text {
+	display: inline-block;
+	font-size: 15px;
+}
+
+.Footer__text-2 {
+	display: inline-block;
+	text-transform: uppercase;
+	color: rgb(11, 0, 51);
+	font-weight: bold;
+	text-shadow: 1px 1px 1px black;
+}
+
+.Footer__text-3 {
+	display: inline-block;
+}
